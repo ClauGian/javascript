@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operação</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(152, 206, 152);
+        }
+        input {
+            background-color: rgb(142, 142, 197);
+            width: 100px;
+        }
+        div#res {
+            color: blue;
+            margin-top: 30px;
+            font-weight: bold;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Realizando operação</h1>
+
+    <input type="number" name="n1" id="txtn1"> +
+    <input type="number" name="n2" id="txtn2"> /
+    <input type="number" name="n3" id="txtn3">
+    <input type="button" value="Realizar" onclick="realizar()">
+
+    <div id="res" class="res2">Resultado</div> <br>
+
+    <script>
+        function realizar() {
+
+            var tn1 = document.querySelector('input#txtn1')
+            var tn2 = document.querySelector('input#txtn2')
+            var tn3 = document.querySelector('input#txtn3')
+            var res = document.querySelector('div#res')
+            var res2 = document.querySelector('div.res2')
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+            var n3 = Number(tn3.value)
+            var r = (n1 + n2)
+            var r1 = (r / n3) 
+            res.innerHTML = `A soma de ${n1} mais ${n2}, é igual a: ${r}.` +'<br>' 
+            res2.innerText += `O resultado da soma ${r} dividido por ${n3} é: ${r1}.`
+            
+            
+        }
+
+
+
+    </script>
+
+
+
+</body>
+</html>
