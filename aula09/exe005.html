@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo DOM</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(0, 128, 0, 0.329);
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+
+    <p>
+        Aqui vai o resultado!
+    </p>
+    <p class="lorem">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente vero quisquam tempore. Nemo ipsum, fuga possimus quasi optio deleniti dolore perspiciatis atque voluptatum corporis, nisi est natus placeat cupiditate aut!</p>
+
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+
+    <div id="msg">Clique em mim.</div>
+
+    <script>
+        //window.document.write(window.document.URL)
+        //var p1 = document.getElementsByTagName("p")[0] => Mostra o primeiro paragrafo[0]
+        //window.document.write(p1.innerText)
+
+        //var p1 = document.getElementsByTagName("p")[1]
+        //window.document.write(p1.innerText) => Mostra o segundo paragrafo sem formatação[1]
+
+        //var p1 = document.getElementsByTagName("p")[1]
+        //window.document.write(p1.innerHTML) => Mostra o segundo paragrafo com formatação
+
+        //var p1 = document.getElementsByTagName("p")[1]
+        //p1.style.color = 'blue'  => Muda a cor da fonte para azul segundo paragrafo.
+
+        //var p1 = document.getElementsByTagName("p")[1]
+        //p1.style.backgroundColor = 'blue' => Cria um background color azul segundo paragrafo
+
+        //var p1 = document.getElementsByTagName("p")[1]
+        //alert(p1.innerText) => Cria a poup-up com o paragrafo.
+
+        //var div = document.getElementById("msg")
+        //div.style.backgroundColor = 'blue' => A div com id ganhou background azul. 
+
+        //var plorem = document.getElementsByClassName("lorem")[0]
+        //plorem.style.backgroundColor = 'blue' => O Paragrafo com class=lorem ganhou background azul.
+
+        var teste1 = document.querySelector("div#msg")
+        teste1.style.backgroundColor = 'blue'
+
+        var teste2 = document.querySelector("p.lorem")
+        teste2.style.backgroundColor = 'blue'
+        teste2.style.color = 'white'
+
+        
+
+
+
+
+    </script>
+</body>
+</html>
