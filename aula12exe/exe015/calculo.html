@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+
+    <section>
+
+        <div>
+            <p><strong>Ano de Nascimento:</strong>
+                <input class="ano" type="number" name="txtano" id="txtano" required maxlength="4" placeholder="Ano Nascimento">
+            </p>
+
+            <p>
+                <strong>Sexo:</strong> 
+                <input type="radio" name="radsex" id="mas" checked>
+                
+                <label for="masc">Masculino</label>
+
+                <input type="radio" name="radsex" id="fem">
+                
+                <label for="fem">Feminino</label> <br>
+            </p>
+
+            <p>
+                <input class="verif" type="submit" value="Verificar" onclick="verificar()">
+            </p>
+
+        </div>
+
+        </div>
+
+        <div id="res">
+            
+        </div>
+
+        
+    </section>
+
+    <footer>
+        <p>Criado por Claudinei Gianini</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
