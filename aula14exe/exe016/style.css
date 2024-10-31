@@ -6,7 +6,7 @@
     padding: 0px;
 }
 body {
-    background-color: rgb(71, 74, 155);
+    background-color: rgb(40, 59, 40);
 }
 
 h1 {
@@ -15,63 +15,44 @@ h1 {
     color: white;
     font-size: 3em;
 }
+
 section {
+    background-color: rgb(154, 202, 154);
     width: 500px;
-    height: 500px;
-    background-color: white;    
+    height: 300px;
     margin: auto;
-    border-radius: 10px 10px 0px 0px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.555);
+    padding: 20px;
+    font-size: 1.3em;
 }
-section > div#dia {
-    font-size: 2em;
+
+section > div > p.parag {
+    padding: 10px 10px;
+}
+
+section > div > p > input.inp {
+    width: 50px;
     text-align: center;
-    margin: 0px;
-    font-weight: bold;
+    padding: 5px;
 }
 
-section > article {
-    position: relative;
-    margin-top: 50px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
+section > div > p > input.contar {
+    width: 80px;
+    text-align: center;
+    padding: 3px;
+    font-size: 0.8em;
+    background-color: rgb(31, 41, 31);
+    color: white;
 }
 
-section > article > div.imagem {
-    position: absolute;
-    
-    
-}
 
-section > article > div >.iaman {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    display: none;
-    
-}
 
-section > article > div >.ientar {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    
-}
-
-section > article > div >.ianoi {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    display: none;
-}
 footer {
     text-align: center;
     margin: auto;
-    padding: 10px;
+    padding: 5px;
     color: white;
     font-style: italic;
-    width: 481px;
-    background-color: rgb(80, 82, 80);
+    width: 532px;
+    background-color: rgb(28, 49, 28);
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.555);
 }

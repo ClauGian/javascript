@@ -16,54 +16,7 @@ h1 {
     font-size: 3em;
 }
 section {
-    width: 500px;
-    height: 500px;
-    background-color: white;    
-    margin: auto;
-    border-radius: 10px 10px 0px 0px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.555);
-}
-section > div#dia {
-    font-size: 2em;
-    text-align: center;
-    margin: 0px;
-    font-weight: bold;
-}
-
-section > article {
-    position: relative;
-    margin-top: 50px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-}
-
-section > article > div.imagem {
-    position: absolute;
     
-    
-}
-
-section > article > div >.iaman {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    display: none;
-    
-}
-
-section > article > div >.ientar {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    
-}
-
-section > article > div >.ianoi {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    display: none;
 }
 footer {
     text-align: center;
