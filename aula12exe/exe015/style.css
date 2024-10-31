@@ -25,6 +25,9 @@ section {
     padding: 10px;
     border: 1px solid black;
 }
+div#conteudo {
+    font-size: 1.5em;
+}
 
 div > p >input.ano {
     font-size: 0.8em;
@@ -36,7 +39,7 @@ div > p >input.ano {
 }
 
 div > p > input.verif {
-    font-size: 0.9em;
+    font-size: 0.8em;
     background-color: rgb(153, 218, 153);
     width: 100px;
     padding: 5px;
@@ -45,14 +48,16 @@ div > p > input.verif {
     border: 1px solid black;   
 }
 div#res {
-    height: 400px;
+    text-align: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
 }
-    
-
 footer {
-    width: 600px;
     margin: auto;
-}
+}   
+
+
 footer > p {
     text-align: center;
     font-size: .7em;

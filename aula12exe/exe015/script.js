@@ -22,19 +22,19 @@ function verificar() {
             
             if (idade > 0 && idade <= 5){
                 //bebe
-                img.setAttribute('src', 'foto-criançam-250.png') 
+                img.setAttribute('src', 'criançam-250.png') 
             } else if (idade <= 10){
                 //crianca
-                img.setAttribute('src', 'foto-criançam1-250.png') 
+                img.setAttribute('src', 'criançam1-250.png') 
             } else if (idade <= 20){
                 //adolescente
-                img.setAttribute('src', 'foto-menino-250.png') 
+                img.setAttribute('src', 'menino-250.png') 
             } else if (idade <= 65){
                 //adulto
-                img.setAttribute('src', 'foto-homem1-250.png') 
+                img.setAttribute('src', 'homem1-250.png') 
             } else {
                 //idoso
-                img.setAttribute('src', 'foto-senhor70-250.png') 
+                img.setAttribute('src', 'senhor70-250.png') 
             }           
 
         } else if (fsex[1].checked) {
@@ -42,25 +42,26 @@ function verificar() {
 
             if (idade > 0 && idade <= 5){
                 //bebe
-                img.setAttribute('src', 'foto-criançaf-250.png') 
+                img.setAttribute('src', 'criançaf-250.png') 
             } else if (idade <= 10) {
                 //crianca
-                img.setAttribute('src', 'foto-criançaf1-250.png') 
+                img.setAttribute('src', 'criançaf1-250.png') 
             } else if (idade <= 20){
                 //adolescente
-                img.setAttribute('src', 'foto-menina-250.png') 
+                img.setAttribute('src', 'menina-250.png') 
             } else if (idade <= 65){
                 //adulto
-                img.setAttribute('src', 'foto-mulher1-250.png') 
+                img.setAttribute('src', 'mulher1-250.png') 
             } else {
                 //idoso
-                img.setAttribute('src', 'foto-senhora78-250.png') 
+                img.setAttribute('src', 'senhora78-250.png') 
             } 
 
 
         }
-        res.style.textAlign = 'center'
-        res.innerHTML = `Detectamos ${genero} com ${idade} anos de idade.`
+        
+        res.innerHTML = `Detectamos ${genero} com ${idade} anos de idade. <br><br>`
+        
         res.appendChild(img)
     }   
   
