@@ -11,67 +11,68 @@ body {
 
 h1 {
     text-align: center;
-    margin: 30px 30px;
+    margin: 20px 20px;
     color: white;
     font-size: 3em;
+    text-shadow: 2px 2px 2px black;
 }
 section {
+    font-size: 2em;
     width: 500px;
     height: 500px;
-    background-color: white;    
+    background-color: rgb(158, 207, 158);    
     margin: auto;
     border-radius: 10px 10px 0px 0px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.555);
+    box-shadow: 3px 0px 3px rgba(0, 0, 0, 0.555);
+    
+    align-items: center;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    
 }
-section > div#dia {
-    font-size: 2em;
+div#msg {
     text-align: center;
-    margin: 0px;
+    padding-top: 20px;
+    height: 55px;
+    
+    flex: auto;
     font-weight: bold;
 }
-
-section > article {
-    position: relative;
-    margin-top: 50px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-}
-
-section > article > div.imagem {
-    position: absolute;
-    
-    
-}
-
-section > article > div >.iaman {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    display: none;
-    
-}
-
-section > article > div >.ientar {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    
-}
-
-section > article > div >.ianoi {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    display: none;
-}
-footer {
-    text-align: center;
-    margin: auto;
+div#foto {
     padding: 10px;
-    color: white;
-    font-style: italic;
-    width: 481px;
+    height: 300;
+    text-align: center;
+
+    background-size: cover;
+    
+    flex: auto;  
+}
+div#msg2 {
+    
+    text-align: center;
+    font-weight: bold;
+    height: 60px;
+   
+    flex: auto;
+    padding-top: 10px;
+}
+div > img#imagem {
+    height: 332px;
+}
+
+footer {
+    text-align: center; 
+    border-radius: 0px 0px 10px 10px;   
+    margin: auto;
+    width: 490px;
+    padding: 5px;
     background-color: rgb(80, 82, 80);
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.555);
-}
+
+}   
+footer > p {
+    color: white;
+    font-style: italic;
+    font-size: 0.7em;
+
+}   
