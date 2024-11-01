@@ -1,58 +1,26 @@
 @charset "UTF-8";
 
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-    padding: 0px;
-}
 body {
-    background-color: rgb(40, 59, 40);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(57, 90, 57);
 }
 
-h1 {
+header {
     text-align: center;
-    margin: 30px 30px;
-    color: white;
-    font-size: 3em;
 }
+
 
 section {
-    background-color: rgb(154, 202, 154);
     width: 500px;
     height: 300px;
     margin: auto;
     padding: 20px;
-    font-size: 1.3em;
+    background-color: rgb(138, 172, 138);
 }
 
-section > div > p.parag {
-    padding: 10px 10px;
-}
-
-section > div > p > input.inp {
-    width: 50px;
-    text-align: center;
-    padding: 5px;
-}
-
-section > div > p > input.contar {
-    width: 80px;
-    text-align: center;
-    padding: 3px;
-    font-size: 0.8em;
-    background-color: rgb(31, 41, 31);
-    color: white;
-}
-
-
-
-footer {
-    text-align: center;
-    margin: auto;
-    padding: 5px;
-    color: white;
-    font-style: italic;
-    width: 532px;
-    background-color: rgb(28, 49, 28);
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.555);
+div#res {
+    height: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(186, 189, 186);
 }
