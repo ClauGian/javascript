@@ -2,5 +2,65 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;   
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(38, 75, 38);
+}
+
+header {
+    text-align: center;
+}
+
+header > h1 {
+    color: white;
+    padding: 20px;
+}
+
+section {
+    background-color: rgb(121, 185, 121);
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px 5px 0px 0px;
+}
+section > div {
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+section > div > p > input#txtn {
+    font-size: 1em; 
+    width: 50px;  
+    padding: 2px; 
+    text-align: center;
+}
+
+section > div > p >input.button {
+    width: 130px;
+    padding: 2px;
+    font-size: 1em;
+    background-color: rgb(38, 75, 38);
+    color: white;
+    margin: 10px 0px 10px 0px;
+    
+}
+
+section > div > select#seltab {
+    width: 130px;
+    padding: 10px;
+}
+
+footer {
+    background-color: rgb(154, 158, 154);
+    text-align: center;
+    font-size: 0.7em;
+    width: 240px;
+    margin: auto;
+    border-radius: 0px 0px 5px 5px;
    
 }
