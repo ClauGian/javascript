@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+:root {
+    --font-1: Arial, Helvetica, sans-serif;
+    --font-2: "Tangerine", sans-serif
+}
+
+* {    
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(imagens/fundo2.jpg);
+}
+header {    
+    background-color: #718590;
+    text-align: center;
+    height: 80px; 
+   
+}
+header > h1 {   
+    font-size: 4em;
+    font-family: var(--font-2);
+    font-weight: bold;
+    
+}
+
+div#input {
+    background-color: #718590;
+    text-align: center;
+    height: 50px; 
+    padding: 10px;   
+}
+
+div > input.botao1 {
+    width: 120px;
+    padding: 3px;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #5e7ee1;
+    font-family: var(--font-2);
+
+}
+div > input.botao2 {
+    width: 120px;
+    padding: 3px;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #cfd5e1;
+    font-family: var(--font-2);
+}
+div > input.botao3 {
+    width: 120px;
+    padding: 3px;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #ffae39;
+    font-family: var(--font-2);
+}
+div > input.botao4 {
+    width: 120px;
+    padding: 3px;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #3f6278;
+    font-family: var(--font-2);
+}
+div > input {
+    margin-right: 30px;
+}
+
+div > p#pense {
+    width: 500px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: var(--font-2);
+    font-size: 3em;
+}
+
+
+article#resp {
+    height: 80vh;
+    text-align: center;
+    position: relative;
+}
+div#msg {
+    font-family: var(--font-2);
+    font-size: 3em;
+    padding: 10px;
+}
+
+img#foto {
+    position: absolute;
+    top: 65%;
+    left: 42%;
+    transform: translate(-35%, -53%);    l
+}
+
