@@ -14,25 +14,24 @@
 
 body {
     background-image: url(imagens/fundo2.jpg);
-}
-header {    
-    background-color: #718590;
-    text-align: center;
-    height: 80px; 
    
 }
+
+header {    
+    background-color: #718590;    
+}
+
 header > h1 {   
     font-size: 4em;
     font-family: var(--font-2);
     font-weight: bold;
-    
+    text-align: center;    
 }
 
 div#input {
-    background-color: #718590;
-    text-align: center;
-    height: 50px; 
-    padding: 10px;   
+    background-color: #718590;     
+    padding: 10px;
+    text-align: center; 
 }
 
 div > input.botao1 {
@@ -73,7 +72,8 @@ div > input.botao4 {
     font-family: var(--font-2);
 }
 div > input {
-    margin-right: 30px;
+    margin: 0px 20px 0px 20px;
+    
 }
 
 div > p#pense {
@@ -103,6 +103,6 @@ img#foto {
     position: absolute;
     top: 65%;
     left: 42%;
-    transform: translate(-35%, -53%);    l
+    transform: translate(-35%, -53%);   
 }
 
