@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: rgb(95, 95, 97);
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header, section, div, footer {
+    border: 2px solid black;
+}
+
+div#num {
+    padding: 10px;
+
+}
+
+div#sel {
+    padding: 10px;
+
+}
+
+input#numero {
+    width: 50px;
+}
+
+
+
+select#adicao {
+    width: 200px;
+}
+
+
+footer {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    color: white;
+    font-style: italic;
+    width: 481px;
+    background-color: rgb(80, 82, 80);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.555);
+}
