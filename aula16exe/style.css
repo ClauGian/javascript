@@ -6,16 +6,26 @@
     padding: 0px;
 }
 body {
-    background-color: rgb(95, 95, 97);
+    background-color: rgb(119, 185, 119);
+    width: 500px;
+    margin: auto;
 }
 
 header {
     text-align: center;
-    padding: 20px;
+    
 }
 
-header, section, div, footer {
-    border: 2px solid black;
+header > h1 {
+    background-color: rgb(38, 46, 38);
+    color: white;
+    height: 70px;
+    padding-top: 30px;
+}
+
+section {
+    
+    background-color: rgb(125, 155, 125);
 }
 
 div#num {
@@ -28,24 +38,44 @@ div#sel {
 
 }
 
-input#numero {
-    width: 50px;
+input#fnum {
+    width: 80px;
+    font-size: 1em;
+    padding: 5px;
+    text-align: center;
 }
 
+input.button {
+    font-size: 1em;
+    width: 100px;
+    padding: 5px;
+    background-color: rgb(6, 12, 6);
+    color: white;
+}
 
+select#flista {
+    width: 230px;
+    background-color: rgb(207, 181, 231);
+    padding: 10px;
+    font-size: 1em;
+}
 
-select#adicao {
-    width: 200px;
+div#res{
+    height: 230px;
+    border: 1px solid black;
+    background-color: rgb(178, 221, 178);
+    padding: 15px;
 }
 
 
 footer {
     text-align: center;
+    font-size: 0.7em;
     margin: auto;
-    padding: 10px;
+    padding: 3px;
     color: white;
     font-style: italic;
-    width: 481px;
+    width: 490px;
     background-color: rgb(80, 82, 80);
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.555);
+    
 }
