@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETRAN</title>
+    <style>
+        body {
+            background-color: cadetblue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5em;
+            margin: 20px;
+        }
+        input {
+            font-size: 1em;
+            width: 70px;
+        }
+        input.button {
+            width: 140px;
+            background-color: rgb(76, 121, 76);
+        }
+        div {
+            background-color: rgb(120, 143, 120);
+            padding: 10px;
+            width: 525px;
+            margin-top: 15px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Controle de Velocidade</h1>
+
+    Velocidade do Veículo: <input type="number" name="txtvel" id="txtvel"> Km/h.
+    <input class="button" type ="button" value=" Verificar " onclick="calcular()">
+
+    <div id="resp"></div>
+
+    <script>
+        function calcular(){
+            var tvel = document.querySelector('input#txtvel')
+            var res = document.querySelector('div#resp')
+            var vel = Number(tvel.value)
+
+            if (vel > 80){
+                res.innerHTML = '<p><strong><u>LIMITE DE VELOCIDADE = 80 km/h.</u></strong></p>'
+                res.innerHTML += `<p>Você estava à <strong>${vel} km/h</strong>, acima do limite.</p>`
+                res.innerHTML += '<P>Você foi <STRONG>MULTADO.</STRONG></P>'
+                res.innerHTML += '<P>Use sempre o cinto de segurança.</P>'
+            } else {
+                res.innerHTML += '<p><strong><u>LIMITE DE VELOCIDADE = 80 km/h.</u></strong></p>'
+                res.innerHTML += `<p>Você estava à ${vel} km/h.</p>`
+                res.innerHTML += '<P>Use sempre o cinto de segurança e boa viagem.</P>'
+            }
+
+
+
+        }
+
+
+
+    </script>
+
+
+
+</body>
+</html>
