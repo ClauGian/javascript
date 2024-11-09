@@ -11,21 +11,50 @@ header {
     color: white;
 }
 
+header > h1 {
+    margin: 15px 15px;
+}
+
 section {
     background-color: rgb(109, 151, 109);
-    width: 600px;
+    width: 700px;
     margin: auto;
     border-radius: 8px;
-    box-shadow: 3px 3px 5px rgb(5, 71, 5);
-    
+    box-shadow: 3px 3px 5px rgb(5, 71, 5);    
+}
+
+div {
+    text-align: center;
+    font-size: 1em;    
+}
+
+div#resp {
+    color: green;
+}
+
+input#txtano {
+    padding: 4px;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(206, 206, 235);
+    border-radius: 5px;
+}
+
+input.button {
+    width: 140px;
+    padding: 2px;
+    font-size: 0.8em;
+    background-color: rgb(13, 37, 13);
+    color: white;
+    border-radius: 5px;
 }
 
 footer {
-    background-color: rgb(22, 59, 22);
+    background-color: rgb(13, 37, 13);
     text-align: center;
     margin: auto;
     font-size: 0.5em;
-    border-radius: 8px;
+    border-radius: 5px;
     color: white;
-    width: 600px;
+    width: 200px;
 }
